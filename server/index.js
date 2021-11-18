@@ -1,5 +1,4 @@
-const server = require('./app')
+const server = require('./server')
 
-const port = 3004;
-server.listen(port,() => console.log(`\nExpress departing now from port ${port}!\n`))
-// server.listen(port, () => console.log(`\nExpress departing now from port ${port}!\n`))
+const port = 3005;
+server.listen(port, () => console.log(`\nExpress departing now from port ${port}!\n`))

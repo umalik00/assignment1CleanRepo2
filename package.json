@@ -13,23 +13,22 @@
   "scripts": {
     "start": "nodemon index.js",
     "dev": "nodemon app",
-    
-    "test": "jest --watchAll --silent -- watch",
+    "test": "jest --silent -- watchAll",
     "coverage": "jest --coverage --silent"
   },
   "name": "team-assignment1",
-  "description": "",
+  "description": "Installation & Usage",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bundle.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/umalik00/team-assignment1.git"
+    "url": "git+https://github.com/rjasmine29/team-assignment1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/umalik00/team-assignment1/issues"
+    "url": "https://github.com/rjasmine29/team-assignment1/issues"
   },
-  "homepage": "https://github.com/umalik00/team-assignment1#readme"
+  "homepage": "https://github.com/rjasmine29/team-assignment1#readme"
 }
