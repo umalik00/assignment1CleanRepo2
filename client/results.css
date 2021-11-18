@@ -1,0 +1,17 @@
+headerDiv,img{
+    width: 10vw;
+
+}
+li{
+    font-size: x-large;
+    
+}
+
+section,ul {
+    list-style-type: none;
+  }
+
+section,p.paragraph{
+    padding: 2%;
+    font-size:small ;
+}
