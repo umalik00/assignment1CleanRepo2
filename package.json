@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6",
+    "watchify": "^4.0.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon app",
+    "test": "jest --silent -- watchAll",
+    "coverage": "jest --coverage --silent"
+  },
+  "name": "team-assignment1",
+  "description": "Installation & Usage",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjasmine29/team-assignment1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rjasmine29/team-assignment1/issues"
+  },
+  "homepage": "https://github.com/rjasmine29/team-assignment1#readme"
+}
